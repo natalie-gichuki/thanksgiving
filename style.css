@@ -1,12 +1,5 @@
 
 
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 180vh;
-    width: 100vw;
-}
-
 nav.navbar{
     background-color: rgba(154, 86, 168, 0.582);
     height: 10vh;
@@ -211,7 +204,7 @@ section.activities .activity{
 }
 
 section.activities .activity .fun-activities {
-    padding: 7rem;
+    padding: 6rem;
 
 }
 
