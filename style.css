@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 200vh;
+    width: 100vw;
 }
 
 nav.navbar{
@@ -303,7 +305,13 @@ td {
 }
 
 @media only screen and (max-width: 360px){
-    
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+        width: 360px;
+    }
+
     section.guests .guestlist .families{
         padding: 2rem;
     }
@@ -396,7 +404,7 @@ td {
         font-size: 0.9rem;
         color: antiquewhite;
     }
-    
+
     table{
         overflow-x: auto;
         display: block;
