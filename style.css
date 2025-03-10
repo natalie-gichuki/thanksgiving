@@ -1,8 +1,13 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body{
     display: flex;
     flex-direction: column;
-    height: 200vh;
-    width: 100vw;
+    height: 180vh;
+    width: 100%;
 }
 
 nav.navbar{
@@ -308,12 +313,22 @@ td {
     body{
         display: flex;
         flex-direction: column;
-        height: 200vh;
+        height: 800px;
         width: 360px;
     }
 
+    section.guests{
+        width: 360px;
+        min-height: 100%;
+        background-image: url(./images/thanks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
     section.guests .guestlist .families{
-        padding: 0;
+        padding: 4rem;
     }
     
     section.guests .guestlist .families table th{
@@ -337,8 +352,19 @@ td {
         font-size: 1rem;
     }
     
+    section.meals{
+        width: 360px;
+        min-height: 100%;
+        background-image: url(./images/thanks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    
+
     section.meals .meals-served .food{
-        padding: 0;
+        padding: 10rem;
     }
 
     section.meals .meals-served .food h1{
@@ -363,10 +389,21 @@ td {
     }
 
     section.activities .activity .fun-activities {
-        padding: 0;
+        padding: 10rem;
     
     }
     
+    section.activities{
+        width: 360px;
+        min-height: 100%;
+        background-image: url(./images/thanks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    
+
     section.activities .activity .fun-activities table th{
         font-size: 1rem;
         color: antiquewhite;
@@ -383,9 +420,19 @@ td {
         text-align: center;
         font-style: italic;
     }
-
+     
+    section.meals{
+        width: 360px;
+        min-height: 100%;
+        background-image: url(./images/thanks.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    
     section.requirements .necessities .purchasing{
-        padding: 0;
+        padding: 10rem;
     }
     
     section.requirements .necessities .purchasing h1{
