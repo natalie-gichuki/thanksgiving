@@ -319,7 +319,7 @@ td {
 
     section.guests{
         width: 360px;
-        min-height: 100%;
+        min-height: 100vh;
         background-image: url(./images/thanks.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -354,7 +354,7 @@ td {
     
     section.meals{
         width: 360px;
-        min-height: 100%;
+        min-height: 100vh;
         background-image: url(./images/thanks.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -395,7 +395,7 @@ td {
     
     section.activities{
         width: 360px;
-        min-height: 100%;
+        min-height: 100vh;
         background-image: url(./images/thanks.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -423,7 +423,7 @@ td {
      
     section.meals{
         width: 360px;
-        min-height: 100%;
+        min-height: 100vh;
         background-image: url(./images/thanks.jpg);
         background-repeat: no-repeat;
         background-size: cover;
