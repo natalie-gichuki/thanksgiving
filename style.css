@@ -392,18 +392,18 @@ td {
     
 
     section.activities .activity .fun-activities table th{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: antiquewhite;
     }
     
     section.activities .activity .fun-activities table td{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: antiquewhite;
     }
     
     section.activities .activity .fun-activities h1{
         color: antiquewhite;
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: center;
         font-style: italic;
     }
@@ -422,19 +422,19 @@ td {
     }
     
     section.requirements .necessities .purchasing h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: antiquewhite;
         text-align: center;
         font-style: italic;
     }
     
     section.requirements .necessities .purchasing th{
-        font-size: 1rem;
+        font-size: 0.6rem;
         color: antiquewhite;
     }
     
     section.requirements .necessities .purchasing td{
-        font-size: 1rem;
+        font-size: 0.6rem;
         color: antiquewhite;
     }
 
