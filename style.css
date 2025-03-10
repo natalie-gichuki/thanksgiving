@@ -318,23 +318,23 @@ td {
     
     section.guests .guestlist .families table th{
         color: antiquewhite;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     
     section.guests .guestlist .families table td{
         color: antiquewhite;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     
     section.guests .guestlist .families h1{
         color: antiquewhite;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-style: italic;
         font-weight: bold;
     }
     
     section.guests .guestlist .families h1.guest{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     section.meals .meals-served .food{
@@ -352,14 +352,14 @@ td {
     section.meals .meals-served .food table th{
         text-align: center;
         color: antiquewhite;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     
     section.meals .meals-served .food table td{
         text-align: center;
         color: antiquewhite;
         list-style: none;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     section.activities .activity .fun-activities {
@@ -368,18 +368,18 @@ td {
     }
     
     section.activities .activity .fun-activities table th{
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: antiquewhite;
     }
     
     section.activities .activity .fun-activities table td{
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: antiquewhite;
     }
     
     section.activities .activity .fun-activities h1{
         color: antiquewhite;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         font-style: italic;
     }
@@ -389,19 +389,19 @@ td {
     }
     
     section.requirements .necessities .purchasing h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: antiquewhite;
         text-align: center;
         font-style: italic;
     }
     
     section.requirements .necessities .purchasing th{
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         color: antiquewhite;
     }
     
     section.requirements .necessities .purchasing td{
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         color: antiquewhite;
     }
 
