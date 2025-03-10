@@ -299,7 +299,7 @@ td {
 
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 468px){
     body{
         display: flex;
         flex-direction: column;
