@@ -408,5 +408,6 @@ td {
     table{
         overflow-x: auto;
         display: block;
+        width: 70%;
     }
 }
