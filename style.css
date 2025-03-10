@@ -314,7 +314,9 @@ td {
         background-position: center;
     }
     section.guests .guestlist .families{
-        padding: 0;
+        padding: 3rem;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
     
     section.guests .guestlist .families table th{
@@ -346,7 +348,9 @@ td {
         background-position: center;
     }
     section.meals .meals-served .food{
-        padding: 0;
+        padding: 5rem;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 
     section.meals .meals-served .food h1{
@@ -378,7 +382,9 @@ td {
     }
 
     section.activities .activity .fun-activities {
-        padding: 0;
+        padding: 5rem;
+        margin-top: 200px;
+        margin-bottom: 200px;
     
     }
     
@@ -410,7 +416,9 @@ td {
     }
     
     section.requirements .necessities .purchasing{
-        padding: 0;
+        padding: 5rem;
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
     
     section.requirements .necessities .purchasing h1{
