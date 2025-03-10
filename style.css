@@ -1,0 +1,274 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav.navbar{
+    background-color: rgba(154, 86, 168, 0.582);
+    height: 10vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.navbar .logo img{
+    height: 65px;
+    width: 70px;
+}
+
+nav.navbar{
+    position: relative;
+}
+
+nav.navbar .logo .logo-text1{
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav.navbar .logo .logo-text2{
+    position: absolute;
+    font-size: 1.8rem;
+    top: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav.navbar .nav-links li.nav-link{
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+nav.navbar .nav-links li.nav-link a{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+nav.navbar .nav-links li.nav-link:hover a{
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+
+nav.navbar .nav-links ul:last-child{
+    margin-right: 50px;
+}
+
+section.banner{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+section.banner .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.banner .overlay .banner-content{
+    padding: 12rem;
+    position: relative;
+}
+
+section.banner .overlay .banner-content p{
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+section.banner .overlay .banner-content .footer footer p{
+    font-size: 1rem;
+    margin-top: 5rem;
+}
+
+section.guests{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+section.guests .guestlist{
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.guests .guestlist .families{
+    padding: 3rem;
+}
+
+section.guests .guestlist .families table th{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+section.guests .guestlist .families table td{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+section.guests .guestlist .families h1{
+    color: antiquewhite;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+section.guests .guestlist .families h1.guest{
+    font-size: 3rem;
+}
+
+section.meals{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+section.meals .meals-served{
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.meals .meals-served .food{
+    padding: 6rem;
+}
+
+section.meals .meals-served .food h1{
+    margin: 0%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+section.meals .meals-served .food table th{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+section.meals .meals-served .food table td{
+    text-align: center;
+    color: antiquewhite;
+    list-style: none;
+    font-size: 2rem;
+}
+
+section.activities{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+section.activities .activity{
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.activities .activity .fun-activities {
+    padding: 7rem;
+
+}
+
+section.activities .activity .fun-activities table th{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+section.activities .activity .fun-activities table td{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+section.activities .activity .fun-activities h1{
+    color: antiquewhite;
+    font-size: 3.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section.requirements{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/thanks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+section.requirements .necessities{
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section.requirements .necessities .purchasing{
+    padding: 3rem;
+}
+
+section.requirements .necessities .purchasing h1{
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+}
+
+section.requirements .necessities .purchasing th{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+section.requirements .necessities .purchasing td{
+    font-size: 1.5rem;
+    color: antiquewhite;
+
+}
+
+
