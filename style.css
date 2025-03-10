@@ -313,11 +313,16 @@ td {
     body{
         display: flex;
         flex-direction: column;
-        height: 800px;
+        
         width: 360px;
     }
 
-
+    section.guests{
+        background-image: url(./images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     section.guests .guestlist .families{
         padding: 4rem;
     }
@@ -325,6 +330,7 @@ td {
     section.guests .guestlist .families table th{
         color: antiquewhite;
         font-size: 0.5rem;
+        width: 60px;
     }
     
     section.guests .guestlist .families table td{
@@ -343,6 +349,12 @@ td {
         font-size: 1rem;
     }
     
+    section.meals{
+        background-image: url(./images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     section.meals .meals-served .food{
         padding: 10rem;
     }
@@ -366,6 +378,13 @@ td {
         color: antiquewhite;
         list-style: none;
         font-size: 0.5rem;
+    }
+
+    section.activities{
+        background-image: url(./images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     section.activities .activity .fun-activities {
@@ -393,6 +412,12 @@ td {
         font-style: italic;
     }
      
+    section.requirements{
+        background-image: url(./images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     
     section.requirements .necessities .purchasing{
         padding: 10rem;
