@@ -317,15 +317,6 @@ td {
         width: 360px;
     }
 
-    section.guests{
-        width: 360px;
-        min-height: 100vh;
-        background-image: url(./images/thanks.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-       
-    }
 
     section.guests .guestlist .families{
         padding: 4rem;
@@ -352,17 +343,6 @@ td {
         font-size: 1rem;
     }
     
-    section.meals{
-        width: 360px;
-        min-height: 100vh;
-        background-image: url(./images/thanks.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-       
-    }
-    
-
     section.meals .meals-served .food{
         padding: 10rem;
     }
@@ -393,15 +373,7 @@ td {
     
     }
     
-    section.activities{
-        width: 360px;
-        min-height: 100vh;
-        background-image: url(./images/thanks.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-       
-    }
+    
     
 
     section.activities .activity .fun-activities table th{
@@ -421,15 +393,6 @@ td {
         font-style: italic;
     }
      
-    section.meals{
-        width: 360px;
-        min-height: 100vh;
-        background-image: url(./images/thanks.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-       
-    }
     
     section.requirements .necessities .purchasing{
         padding: 10rem;
